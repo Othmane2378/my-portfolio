@@ -92,7 +92,7 @@ function Projects() {
     return (
         <>
             <div className='min-h-screen bg-slate-50 shadow-inner pt-4 pb-4' id='Projects'>
-                <h1 className='text-center text-5xl p-4 text-blue-600 underline underline-offset-8'><strong>Projects</strong></h1>
+                <h1 className='text-center text-xl lg:text-5xl p-4 text-blue-600 underline underline-offset-8'><strong>Projects</strong></h1>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-6 gap-8'>
                     {projects.map((project) => (
                         <div className='bg-white rounded-lg overflow-hidden shadow-lg border border-gray-100 hover:shadow-xl transition-shadow'>

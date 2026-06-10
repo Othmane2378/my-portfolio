@@ -43,14 +43,14 @@ function Education() {
     return (
         <>
             <div className='min-h-screen shadow-inner pt-4 pb-4' id='Education'>
-                <h1 className='text-center text-5xl p-4 text-blue-600 underline underline-offset-8'><strong>Education</strong></h1>
+                <h1 className='text-center text-xl lg:text-5xl p-4 text-blue-600 underline underline-offset-8'><strong>Education</strong></h1>
                 <div className='flex flex-col h-full items-center'>
                     {Educations.map((educ) => (
-                        <div className='bg-white m-auto w-1/2 rounded-xl p-10 mb-4 border shadow-xl'>
+                        <div className='bg-white m-auto w-11/12 lg:w-1/2 rounded-xl p-10 mb-4 border shadow-xl'>
                             <div className='flex'>
                                 <div className='w-2/3'>
-                                    <h2 className='text-3xl'><strong>{educ.major}</strong></h2>
-                                    <h3>{educ.school}</h3>
+                                    <h2 className='text-xl lg:text-3xl'><strong>{educ.major}</strong></h2>
+                                    <h3 className='text-xs lg:text-xl'>{educ.school}</h3>
                                 </div>
                                 <div className='w-1/3'>
                                     <img className='m-auto mt-2 mb-2' src={educ.icon} />
@@ -59,14 +59,13 @@ function Education() {
                             <div className='flex items-center mt-4'>
                                 <CiLocationOn />
                                 <p><strong>{educ.location}</strong></p>
-                                
                             </div>
                             <div className='flex items-center'>
                                 <CiCalendar/>
                                 <p><strong>{educ.date}</strong></p>
                             </div>
                             <p className='mt-3'>
-                                <ul className="mb-4 space-y-1">
+                                <ul className="mb-4 space-y-1 text-xs lg:text-sm">
                                     {educ.description.map((item) => (
                                         <li>{item}</li>
                                     ))}

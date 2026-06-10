@@ -67,11 +67,11 @@ function Experiences() {
     return (
         <>
             <div className='min-h-screen bg-slate-50 shadow-inner pt-4 pb-4' id='Experiences'>
-                <h1 className='text-center text-5xl p-4 text-blue-600 underline underline-offset-8'><strong>Experiences</strong></h1>
+                <h1 className='text-center text-xl lg:text-5xl p-4 text-blue-600 underline underline-offset-8'><strong>Experiences</strong></h1>
                 <div className='flex flex-col h-full items-center'>
                     {Experiences.map((exp) => (
-                        <div className='bg-white m-auto w-1/2 rounded-xl p-10 mb-4 border shadow-xl'>
-                            <h2 className='text-3xl'><strong>{exp.role}</strong></h2>
+                        <div className='bg-white w-11/12 lg:w-1/2 rounded-xl p-10 mb-4 border shadow-xl'>
+                            <h2 className='text-xl lg:text-3xl'><strong>{exp.role}</strong></h2>
                             <h3>{exp.company} - {exp.type}</h3>
                             <img className='size-1/3 m-auto mt-2 mb-2' src={exp.icon} />
                             <div className='flex items-center'>
@@ -83,7 +83,7 @@ function Experiences() {
                                 <p><strong>{exp.date}</strong></p>
                             </div>
                             <p className='mt-3'>
-                                <ul className="list-disc list-inside mb-4 space-y-1">
+                                <ul className="list-disc list-inside mb-4 space-y-1 text-xs lg:text-sm">
                                     {exp.description.map((item) => (
                                         <li>{item}</li>
                                     ))}
