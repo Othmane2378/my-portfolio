@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.f402e5d7.css",
-    "main.js": "/my-portfolio/static/js/main.7674fc01.js",
+    "main.css": "/my-portfolio/static/css/main.1c0a0b69.css",
+    "main.js": "/my-portfolio/static/js/main.25b3c401.js",
     "static/js/453.15a626a8.chunk.js": "/my-portfolio/static/js/453.15a626a8.chunk.js",
     "static/media/coding-boy.gif": "/my-portfolio/static/media/coding-boy.97f2b188b8af96fb1758.gif",
     "static/media/robot.jpg": "/my-portfolio/static/media/robot.8fc672286bf7889b2960.jpg",
@@ -17,12 +17,12 @@
     "static/media/ISTYLogo.png": "/my-portfolio/static/media/ISTYLogo.b293393ca479d7c0c002.png",
     "static/media/SpectrumGroupLogo.png": "/my-portfolio/static/media/SpectrumGroupLogo.e66a44e3a49550008196.png",
     "index.html": "/my-portfolio/index.html",
-    "main.f402e5d7.css.map": "/my-portfolio/static/css/main.f402e5d7.css.map",
-    "main.7674fc01.js.map": "/my-portfolio/static/js/main.7674fc01.js.map",
+    "main.1c0a0b69.css.map": "/my-portfolio/static/css/main.1c0a0b69.css.map",
+    "main.25b3c401.js.map": "/my-portfolio/static/js/main.25b3c401.js.map",
     "453.15a626a8.chunk.js.map": "/my-portfolio/static/js/453.15a626a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f402e5d7.css",
-    "static/js/main.7674fc01.js"
+    "static/css/main.1c0a0b69.css",
+    "static/js/main.25b3c401.js"
   ]
 }
