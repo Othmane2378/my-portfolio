@@ -10,7 +10,7 @@ function Contact() {
     return (
         <>
             <div className='min-h-screen shadow-inner pt-4 pb-4' id='Contact'>
-                <h1 className='text-center text-xl lg:text-5xl p-4 text-blue-600 underline underline-offset-8'><strong>Let's meet us !</strong></h1>
+                <h1 className='text-center text-xl lg:text-5xl p-4 text-blue-600 underline underline-offset-8'><strong>Let's meet !</strong></h1>
                 <p className='text-center my-10'>Thanks for the reading ! Feel free to contact me if you have any opportunities</p>
                 <div className='flex mt-3'>
                     {/* Contact info */}

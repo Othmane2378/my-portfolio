@@ -16,7 +16,7 @@ function AboutMe() {
                         <img src={pp} className='w-1/2 rounded-full border shadow-xl m-auto'></img>
                     </div>
                     <div className='basis-2/3 content-center'>
-                        <div className='w-11/12 lg:w-1/2 m-auto rounded-xl p-10 border shadow-2xl'>
+                        <div className='w-11/12 m-auto rounded-xl p-10 border shadow-2xl'>
                             <div className='pb-5'>
                                 <h2 className='text-xl md:text-3xl text-blue-500 pb-2'><strong>Presentation</strong></h2>
                                 <p className='text-xs md:text-lg'>
@@ -29,24 +29,24 @@ function AboutMe() {
                                 <h2 className='text-xl md:text-3xl text-blue-500 pb-2'><strong>Languages</strong></h2>
                                 <div className=' text-xs md:text-lg'>
                                     <p><strong>French(Native)</strong></p>
-                                    <p><strong>English(B2)</strong>: TOEIC 785</p>
+                                    <p><strong>English(B2)</strong>: Work proficiency, TOEIC 785/990</p>
                                     <p><strong>Deutsch(A1/A2)</strong>: School notions</p>
-                                    <p><strong>Korean(A1)</strong>: self learning</p>
+                                    <p><strong>Korean(A1)</strong>: Beginner, self learning</p>
                                 </div>
                             </div>
                             <div className='pb-5'>
                                 <h2 className='text-xl md:text-3xl text-blue-500 pb-2'><strong>Hobbies & Interests</strong></h2>
                                 <div className='flex flex-wrap'>
                                     <div className='flex items-center m-auto'>
-                                        <CiBasketball size={icon_size} />
+                                        <CiBasketball className='md:text-xl lg:text-4xl'/>
                                         <p><strong>Sport</strong>: Basketball, Football</p>
                                     </div>
                                     <div className='flex items-center m-auto'>
-                                        <GrTechnology size={icon_size}/>
+                                        <GrTechnology className='md:text-xl lg:text-4xl' />
                                         <p><strong>Technologies</strong>: IA, cybersecurity</p>
                                     </div>
                                     <div className='flex items-center m-auto'>
-                                        <MdMonochromePhotos size={icon_size}/>
+                                        <MdMonochromePhotos className='md:text-xl lg:text-4xl' />
                                         <p><strong>Photography</strong>: beginner, self-taught</p>
                                     </div>
                                 </div>

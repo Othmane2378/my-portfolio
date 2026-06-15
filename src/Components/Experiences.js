@@ -14,13 +14,11 @@ function Experiences() {
             location: 'Puteaux, FR',
             date: 'Oct 2024 - Dec 2025',
             description: [
-                'GenAI & Cyber Threat Intelligence backend developer',
-                'Development of features on the CTI and GenAI solutions (FastAPI)',
-                'Development of new CTI collectors to collect datas (leaks, malwares, CVEs, …)',
-                'Development of new AI Agents for CTI and GenAI solutions',
-                'MCO on production collectors to fix them as soon as possible or improve them',
-                'Participation in technical feature designs (search, implementation, infrastructure, testing, presentation)',
-                'Improvement of unitary tests'
+                'Development of RESTful APIs in Python for CTI and GenAI projects: design and implementaUon of new features, debugging, improvements, unit testing, and development of data collectors (data leaks, malwares, CVEs…), optimization of a combo list parsing algorithm: +300% increase in supported formats',
+                'Integration and deployment of AI agents (reporting, web search, company industry analyze, ...)',
+                'End-to-end feature ownership: requirements analysis, technical decision-making, implementation, testing and stakeholder presentations',
+                'Production deployment maintenance: hotfixes, continuous improvements and operational monitoring',
+                'Collaboration within an international team following Agile methodologies: CI/CD, code reviews, mentoring and onboarding of interns and apprentices',
             ]
         },
         {
@@ -31,11 +29,10 @@ function Experiences() {
             location: 'Puteaux, FR',
             date: 'Apr 2024 - Oct 2024',
             description: [
-                'Development of an SDK in Golang. CLI enabling verifications during Python package development',
-                'Development of a Python library to interact with the solution',
-                'Development of Python packages to interact with cybersecurity tools such as Fortigate, HarfangLab, SentinelOne, Microsoft Entra-ID, and AIONIQ',
-                'Deployment of Docker containers for test pipelines on GitLab',
-                'Documentation'
+                'Development of a Golang CLI SDK to automate product compliance checks and repetitive tasks from the design phase (shift-left approach)',
+                'Development of a Python library for integration with the Reflex SOAR and packages (connectors) for cybersecurity tools: Fortigate, HarfangLab, SentinelOne, Entra-ID, AIONIQ',
+                'Creation of Docker containers for Gitlab CI/CD pipelines: unit test execution and package quality checks',
+                'Technical documentation writing, unit testing implementation (Pytest) and knowledge transfer to the team',
             ]
         },
         {

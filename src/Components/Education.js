@@ -14,8 +14,9 @@ function Education() {
             date: 'Sep 2021 - Sep 2024',
             description: [
                 'Specialization: IATIC – Information and Communication Technology Architecture Engineer',
-                'The program covers system and network architecture, software engineering, and IT infrastructure, combining rigorous theoretical foundations with applied technical training..'
-            ]
+                'The program covers system and network architecture, software engineering, and IT infrastructure, combining rigorous theoretical foundations with applied technical training.'
+            ],
+            link: "https://www.isty.uvsq.fr/enseignements" 
         },
         {
             major: 'Cybersecurity',
@@ -26,7 +27,8 @@ function Education() {
             description: [
                 'Specialization: SeCReTS – Content, Network, telecommunications and Systems Security',
                 'The program covers core cybersecurity domains including cryptography, network and system security, and secure application design. It provides hands-on experience in vulnerability analysis, reverse engineering, intrusion detection, incident response, and web and Windows security.'
-            ]
+            ],
+            link: "https://www.universite-paris-saclay.fr/en/education/masters-degree/computer-science/m2-securite-des-contenus-des-reseaux-des-telecommunications-et-des-systemes"
         },
         {
             major: 'Engineering Integrated Preparatory Program',
@@ -36,7 +38,8 @@ function Education() {
             date: 'Sep 2019 - Sep 2021',
             description: [
                 'Two-year integrated preparatory program for engineering studies with intensive training in mathematics, computer science, physics, and engineering fundamentals.'
-            ]
+            ],
+            link: "https://www.isty.uvsq.fr/enseignements-3"
         }
     ]
 
@@ -64,12 +67,13 @@ function Education() {
                                 <CiCalendar/>
                                 <p><strong>{educ.date}</strong></p>
                             </div>
-                            <p className='mt-3'>
-                                <ul className="mb-4 space-y-1 text-xs lg:text-sm">
+                            <p className='mt-3 space-y-1 text-xs lg:text-sm'>
+                                <ul className="mb-4">
                                     {educ.description.map((item) => (
                                         <li>{item}</li>
                                     ))}
                                 </ul>
+                                <p><strong>More details: </strong><a href={educ.link} target="_blank" className='text-blue-500 hover:underline'>Click here</a> </p>
                             </p>
                         </div>
                     ))}

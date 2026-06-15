@@ -1,4 +1,5 @@
 import { SiPython, SiC, SiGo, SiJavascript, SiReact, SiNodedotjs, SiHtml5, SiCss, SiGit, SiFastapi, SiDocker, SiCplusplus, SiPydantic, SiKubernetes, SiLangchain, SiLanggraph, SiOpenai, SiOllama, SiGithubcopilot,SiNextdotjs } from 'react-icons/si';
+import { BsFiletypeSql } from "react-icons/bs";
 
 function Skills() {
 
@@ -19,6 +20,7 @@ function Skills() {
         { name: 'Git', icon: <SiGit className="text-red-800 md:text-4xl lg:text-8xl" /> },
         { name: 'Docker', icon: <SiDocker className="text-blue-800 md:text-4xl lg:text-8xl" /> },
         { name: 'Kubernetes', icon: <SiKubernetes className="text-blue-800 md:text-4xl lg:text-8xl" /> },
+        { name: 'SQL', icon: <BsFiletypeSql className="md:text-4xl lg:text-8xl" /> },
     ]
 
     const APISkills = [
