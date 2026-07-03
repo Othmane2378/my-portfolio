@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.c449aa7e.css",
-    "main.js": "/my-portfolio/static/js/main.57578606.js",
+    "main.js": "/my-portfolio/static/js/main.ae5b043c.js",
     "static/js/453.15a626a8.chunk.js": "/my-portfolio/static/js/453.15a626a8.chunk.js",
     "static/media/coding-boy.gif": "/my-portfolio/static/media/coding-boy.97f2b188b8af96fb1758.gif",
     "static/media/robot.jpg": "/my-portfolio/static/media/robot.8fc672286bf7889b2960.jpg",
@@ -9,7 +9,7 @@
     "static/media/2048.gif": "/my-portfolio/static/media/2048.ef2d51b6889aa5acabf9.gif",
     "static/media/the_island.jpeg": "/my-portfolio/static/media/the_island.a7fde3972b04596aee5d.jpeg",
     "static/media/mangas.jpg": "/my-portfolio/static/media/mangas.664cf924ca46134587dd.jpg",
-    "static/media/CV_Othmane_Abdimi_ENG.pdf": "/my-portfolio/static/media/CV_Othmane_Abdimi_ENG.b365c7af4784cab82a63.pdf",
+    "static/media/CV_Othmane_Abdimi_ENG.pdf": "/my-portfolio/static/media/CV_Othmane_Abdimi_ENG.ec76bfa12b16a0cb64b6.pdf",
     "static/media/glitching-hacker-hacking.gif": "/my-portfolio/static/media/glitching-hacker-hacking.02f0bd105f37e0a5e312.gif",
     "static/media/iadog.jpeg": "/my-portfolio/static/media/iadog.cab89825d18232bcba21.jpeg",
     "static/media/triominos.jpg": "/my-portfolio/static/media/triominos.367a602c68a67c94ed58.jpg",
@@ -18,11 +18,11 @@
     "static/media/SpectrumGroupLogo.png": "/my-portfolio/static/media/SpectrumGroupLogo.e66a44e3a49550008196.png",
     "index.html": "/my-portfolio/index.html",
     "main.c449aa7e.css.map": "/my-portfolio/static/css/main.c449aa7e.css.map",
-    "main.57578606.js.map": "/my-portfolio/static/js/main.57578606.js.map",
+    "main.ae5b043c.js.map": "/my-portfolio/static/js/main.ae5b043c.js.map",
     "453.15a626a8.chunk.js.map": "/my-portfolio/static/js/453.15a626a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c449aa7e.css",
-    "static/js/main.57578606.js"
+    "static/js/main.ae5b043c.js"
   ]
 }
