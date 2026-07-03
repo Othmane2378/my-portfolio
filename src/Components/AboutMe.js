@@ -1,4 +1,4 @@
-import pp from '../Assets/Images/profile_picture.jpg'
+import pp from '../Assets/Images/3D5B588B-3EC0-4657-91A8-2F31B24B1999_1_201_a.jpeg'
 
 import { MdOutlineSportsBasketball, MdMonochromePhotos } from "react-icons/md";
 import { GrTechnology } from "react-icons/gr";
@@ -22,12 +22,13 @@ function AboutMe() {
                                 <p className='text-xs md:text-lg'>
                                     <strong>Software Engineer</strong> with hands-on experience in <strong>Python backend development</strong> across <strong>CTI and Generative AI</strong>.<br /> 
                                     Dual academic background in <strong>Computer Science Engineering (ISTY)</strong> and a <strong>Master’s degree in Cybersecurity (Paris-Saclay Univ.)</strong>.<br />
-                                    Known for <strong>strong autonomy and rigorous development practices</strong> throughout the full software lifecycle, as well as the <strong>ability to share knowledge eﬀectively (mentoring of interns and apprentices</strong>.
+                                    Known for <strong>strong autonomy and rigorous development practices</strong> throughout the full software lifecycle, as well as the <strong>ability to share knowledge eﬀectively (mentoring of interns and apprentices)</strong>.<br />
+                                    <strong>Open to relocation.</strong>
                                 </p>
                             </div>
                             <div className='pb-5'>
                                 <h2 className='text-xl md:text-3xl text-blue-500 pb-2'><strong>Languages</strong></h2>
-                                <div className=' text-xs md:text-lg'>
+                                <div className='text-xs md:text-lg'>
                                     <p><strong>French(Native)</strong></p>
                                     <p><strong>English(B2)</strong>: Work proficiency, TOEIC 785/990</p>
                                     <p><strong>Deutsch(A1/A2)</strong>: School notions</p>

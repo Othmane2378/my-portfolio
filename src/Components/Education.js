@@ -14,6 +14,7 @@ function Education() {
             date: 'Sep 2021 - Sep 2024',
             description: [
                 'Specialization: IATIC – Information and Communication Technology Architecture Engineer',
+                <strong>(Double degree alongside Engineering program)</strong>,
                 'The program covers system and network architecture, software engineering, and IT infrastructure, combining rigorous theoretical foundations with applied technical training.'
             ],
             link: "https://www.isty.uvsq.fr/enseignements" 
